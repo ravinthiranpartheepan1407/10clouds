@@ -434,7 +434,7 @@ export default function Home() {
           {renderTabs()}
           <div>
           <div className="pt-5 hidden sm:flex">
-            <Link passHref href="https://testnets.opensea.io/collection/10-clouds-token">
+            <Link passHref href="https://testnets.opensea.io/collection/10-clouds-token-v2">
               <div className=" transition-all">
                 <img
                   alt="Opensea logo"
@@ -445,7 +445,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="pt-5 hidden sm:flex">
-            <Link passHref href="https://rinkeby.rarible.com/collection/0x8d0a08edc94c43ce9d75d2c172d73de30e053a82/items">
+            <Link passHref href="https://rinkeby.rarible.com/collection/0xEAffA0e3C37eBcd6bF37e19797884a1643eDe2D4/items">
               <div className=" transition-all">
                 <img
                   alt="Opensea logo"
@@ -464,7 +464,7 @@ export default function Home() {
         <div className="flex sm:hidden">
           <Link
             passHref
-            href="https://testnets.opensea.io/collection/10-clouds-token"
+            href="https://testnets.opensea.io/collection/10-clouds-token-v2"
           >
             <div className="flex text-white items-center bg-opensea w-full">
               <img
@@ -479,7 +479,7 @@ export default function Home() {
         <div className="flex sm:hidden">
           <Link
             passHref
-            href="https://rinkeby.rarible.com/collection/0x8d0a08edc94c43ce9d75d2c172d73de30e053a82/items"
+            href="https://rinkeby.rarible.com/collection/0xEAffA0e3C37eBcd6bF37e19797884a1643eDe2D4/items"
           >
             <div className="flex text-white items-center bg-opensea w-full">
               <img
