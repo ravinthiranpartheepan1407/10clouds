@@ -226,14 +226,16 @@ export default function Home() {
             IPFS: https://gateway.pinata.cloud/ipfs/QmbSczPDoXKzed8XzbDFmugvHefubRHapECwsYVzng5AJm
           </p>
           <br />
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col lg:grid grid-cols-2 gap-4 items-center md:items-start">
             <div className="pb-12">{renderButton()}</div>
+            <div className="pb-12">
             <button
               className="bg-primary-500 flex items-center shadow-glow py-4 px-10"
               onClick={()=> router.push("https://faucets.chain.link/rinkeby")}
             >
               <span className="Mint-NFT-">Eth Faucet</span>
             </button>
+            </div>
           </div>
           <p className="text font-medium text-center text-white text-primary-700 md:text-left">
             Users can mint only one 10 clouds NFT per one wallet address
