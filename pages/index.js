@@ -218,6 +218,9 @@ export default function Home() {
           <p className="text-xl font-medium text-center text-white text-primary-700 md:text-left">
             Total Token Supply: { 100 - tokenIdsMinted } / 100
           </p>
+          <p className="text-xl font-medium text-center text-white text-primary-700 md:text-left">
+            Price: 0.01
+          </p>
           <br />
           <p className="font-light text-center text-white text-primary-700 md:text-left">
             IPFS: https://gateway.pinata.cloud/ipfs/QmbSczPDoXKzed8XzbDFmugvHefubRHapECwsYVzng5AJm
