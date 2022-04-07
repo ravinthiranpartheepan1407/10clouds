@@ -455,6 +455,17 @@ export default function Home() {
               </div>
             </Link>
           </div>
+          <div className="pt-5 hidden sm:flex">
+            <Link passHref href="https://rinkeby.etherscan.io/address/0xeaffa0e3c37ebcd6bf37e19797884a1643ede2d4">
+              <div className=" transition-all">
+                <img
+                  alt="Opensea logo"
+                  className="w-20 h-20 cursor-pointer"
+                  src="./etherscan.png"
+                />
+              </div>
+            </Link>
+          </div>
           </div>
         </div>
         <div className="flex-1 shrink-0">
@@ -486,6 +497,21 @@ export default function Home() {
                 alt="Opensea logo"
                 className="w-20 h-20 cursor-pointer"
                 src="./rarible.png"
+              />
+              <p>See it in Opensea</p>
+            </div>
+          </Link>
+        </div>
+        <div className="flex sm:hidden">
+          <Link
+            passHref
+            href="https://rinkeby.etherscan.io/address/0xeaffa0e3c37ebcd6bf37e19797884a1643ede2d4"
+          >
+            <div className="flex text-white items-center bg-opensea w-full">
+              <img
+                alt="Opensea logo"
+                className="w-20 h-20 cursor-pointer"
+                src="./etherscan.png"
               />
               <p>See it in Opensea</p>
             </div>
