@@ -233,7 +233,7 @@ export default function Home() {
               className="bg-primary-500 flex items-center shadow-glow py-4 px-10"
               onClick={()=> router.push("https://faucets.chain.link/rinkeby")}
             >
-              <span className="Mint-NFT-">Eth Faucet</span>
+              Eth Faucet
             </button>
             </div>
           </div>
