@@ -207,7 +207,7 @@ export default function Home() {
         <title>10 clouds - NFT</title>
       </Head>
       <div className="flex h-screen flex-col md:flex-row">
-        <div className="lg:mt-60 flex-1 md:p-20">
+        <div className="lg:mt-44 flex-1 md:p-20">
           <p className="text-7xl font-medium text-center text-primary-700 md:text-left">
             Ten clouds Governance Protocol
           </p>
@@ -215,10 +215,20 @@ export default function Home() {
           <p className="text-xl font-medium text-center text-white text-primary-700 md:text-left">
             Wallet: {userAddress}
           </p>
+          <p className="text-xl font-medium text-center text-white text-primary-700 md:text-left">
+            Total Token Supply: { 100 - tokenIdsMinted } / 100
+          </p>
+          <br />
+          <p className="font-light text-center text-white text-primary-700 md:text-left">
+            IPFS: https://gateway.pinata.cloud/ipfs/QmbSczPDoXKzed8XzbDFmugvHefubRHapECwsYVzng5AJm
+          </p>
           <br />
           <div className="flex flex-col items-center md:items-start">
             <div className="pb-12">{renderButton()}</div>
           </div>
+          <p className="text font-medium text-center text-white text-primary-700 md:text-left">
+            Users can mint only one 10 clouds NFT per one wallet address
+          </p>
         </div>
         <div className="flex-1 shrink-0">
           <img
