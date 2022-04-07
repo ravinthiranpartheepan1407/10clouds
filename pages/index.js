@@ -229,10 +229,7 @@ export default function Home() {
           <div className="flex flex-col lg:grid grid-cols-2 gap-4 items-center md:items-start">
             <div className="pb-12">{renderButton()}</div>
             <div className="pb-12">
-            <button
-              className="bg-primary-500 flex items-center shadow-glow py-4 px-10"
-              onClick={()=> router.push("https://faucets.chain.link/rinkeby")}
-            >
+            <button className="bg-primary-500 flex items-center shadow-glow py-4 px-10" onClick={()=> route.push("https://faucets.chain.link/rinkeby")}>
               Eth Faucet
             </button>
             </div>
